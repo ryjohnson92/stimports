@@ -1,3 +1,4 @@
+#!/bin/bash
 apt-get remove -y build-essential \
     tk-dev;
     
