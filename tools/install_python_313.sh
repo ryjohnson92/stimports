@@ -6,3 +6,5 @@ cd /tmp/python/Python-3.13.0a5
     make -j4 && \
     make install;
 ln -s /usr/local/bin/python3.13t /usr/local/bin/python;
+
+export PYTHON_MODULE_DIR=/usr/local/lib/python3.13/site-packages
