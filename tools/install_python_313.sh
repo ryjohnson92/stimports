@@ -7,6 +7,4 @@ cd /tmp/python/Python-3.13.0a5
     make install;
 ln -s /usr/local/bin/python3.13t /usr/local/bin/python;
 
-
-echo 'PYTHON_MODULE_DIR="/usr/local/lib/python3.13/site-packages"' >> ~/.bashrc;
-
+ln -s /usr/local/lib/python3.13/site-packages /var/lib/python/modules;

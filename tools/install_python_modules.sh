@@ -1,3 +1,3 @@
-git clone https://github.com/ryjohnson92/Containers.git $PYTHON_MODULE_DIR/Containers && \
-    git clone https://github.com/ryjohnson92/Remote.git $PYTHON_MODULE_DIR/Remote && \
-    git clone https://github.com/ryjohnson92/Local.git $PYTHON_MODULE_DIR/Local;
+git clone https://github.com/ryjohnson92/Containers.git /var/lib/python/modules/Containers && \
+    git clone https://github.com/ryjohnson92/Remote.git /var/lib/python/modules/Remote && \
+    git clone https://github.com/ryjohnson92/Local.git /var/lib/python/modules/Local;

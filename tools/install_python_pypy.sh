@@ -9,5 +9,4 @@ python -m ensurepip;
 
 # $(echo "/etc/pypy3.10/lib/pypy3.10/site-packages")
 
-
-echo 'PYTHON_MODULE_DIR="/etc/pypy3.10/lib/pypy3.10/site-packages"' >> ~/.bashrc;
+ln -s /etc/pypy3.10/lib/pypy3.10/site-packages /var/lib/python/modules;
