@@ -11,7 +11,6 @@ else
     bash /tmp/stimports/tools/install_$PYTHON_VERSION.sh
 fi
 # fi
-bash;
 mkdir mkdir -p /var/lib/python;
 ln -s $PYTHON_MODULE_DIR /var/lib/python/modules;
 
