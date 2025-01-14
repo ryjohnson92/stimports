@@ -11,7 +11,7 @@ else
     bash /tmp/stimports/tools/install_$PYTHON_VERSION.sh
 fi
 # fi
-
+bash 
 
 ## Need this on your install script 
-# echo PYTHON_MODULE_DIR=/etc/pypy3.10/lib/pypy3.10/site-packages >>  /etc/environment
+# echo 'PYTHON_MODULE_DIR="/etc/pypy3.10/lib/pypy3.10/site-packages"' >>   ~/.bashrc
