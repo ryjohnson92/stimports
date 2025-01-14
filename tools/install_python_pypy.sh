@@ -7,4 +7,4 @@ ln -s /etc/pypy3.10/bin/pypy3.10 /usr/local/bin/python;
 chmod +x /usr/local/bin/python;
 python -m ensurepip;
 
-echo PYTHON_MODULE_DIR=/etc/pypy3.10/lib/pypy3.10/site-packages >>  ~/.bashrc
+export PYTHON_MODULE_DIR=/etc/pypy3.10/lib/pypy3.10/site-packages

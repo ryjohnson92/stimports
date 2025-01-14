@@ -12,5 +12,6 @@ else
     fi
 fi
 
+echo PYTHON_MODULE_DIR=$PYTHON_MODULE_DIR >>  ~/.bashrc
 ## Need this on your install script 
 # echo PYTHON_MODULE_DIR=/etc/pypy3.10/lib/pypy3.10/site-packages >>  ~/.bashrc
