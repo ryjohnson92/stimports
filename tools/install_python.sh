@@ -1,7 +1,7 @@
 #! /usr/bin/bash
 echo $PYTHON_VERSION
 
-# if  [[ -z "$(which python)" ]]; then
+# if  [[ -z "$PYTHON_MODULE_DIR" ]]; then
 #     echo "Python already configured"
 # else
 mkdir /tmp/python

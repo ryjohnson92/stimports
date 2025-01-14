@@ -8,5 +8,5 @@ cd /tmp/python/Python-3.13.0a5
 ln -s /usr/local/bin/python3.13t /usr/local/bin/python;
 
 
-echo 'PYTHON_MODULE_DIR="/etc/pypy3.10/lib/pypy3.10/site-packages"' >> ~/.bashrc;
+echo 'PYTHON_MODULE_DIR="/usr/local/lib/python3.13/site-packages"' >> ~/.bashrc;
 
