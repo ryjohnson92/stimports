@@ -11,9 +11,8 @@ else
     bash /tmp/stimports/tools/install_$PYTHON_VERSION.sh
 fi
 # fi
-bash python -m pip install -r /tmp/stimports/requirements.txt
 bash /tmp/stimports/tools/install_python_modules.sh
-bash python -m pip install -r /tmp/stimports/requirements.txt
+python -m pip install -r /tmp/stimports/requirements.txt
 ## Need this on your install script 
 # ln -s /usr/local/lib/python3.13/site-packages /var/lib/python/modules;
 
