@@ -11,6 +11,7 @@ else
     bash /tmp/stimports/tools/install_$PYTHON_VERSION.sh
 fi
 # fi
+bash python -m pip install -r /tmp/stimports/requirements.txt
 bash /tmp/stimports/tools/install_python_modules.sh
 
 ## Need this on your install script 
