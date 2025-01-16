@@ -6,3 +6,4 @@ mysql-connector-python
 adb_shell
 gunicorn 
 requests
+paho-mqtt
