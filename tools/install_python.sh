@@ -18,6 +18,13 @@ python -m pip install -r /tmp/stimports/requirements.txt
 ##
 bash /tmp/stimports/tools/install_python_modules.sh
 
+# /tmp/python/modules anything here, move to the modules dir
+
+if [ -d "/tmp/python/modules" ]; then
+  mv /tmp/python/modules/* /var/lib/python/modules
+fi
+
+
 ## Need this on your install script 
 # ln -s /usr/local/lib/python3.13/site-packages /var/lib/python/modules;
 
