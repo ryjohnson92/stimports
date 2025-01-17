@@ -8,3 +8,4 @@ gunicorn
 requests
 paho-mqtt
 canonicaljson
+ed25519
