@@ -7,3 +7,4 @@ adb_shell
 gunicorn 
 requests
 paho-mqtt
+canonicaljson
