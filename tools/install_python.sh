@@ -16,6 +16,8 @@ python -m pip install -r /tmp/stimports/requirements.txt
 #
 #
 ##
+update-alternatives --install /usr/bin/python3 python3 /usr/local/bin/python 1
+update-alternatives --install /usr/bin/python python /usr/local/bin/python 1
 bash /tmp/stimports/tools/install_python_modules.sh
 
 # /tmp/python/modules anything here, move to the modules dir
